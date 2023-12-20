@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+    background-color: #7b67c3;
+}
+h2{
+    display: flex;
+    position: relative;
+    left: 38%;
+    top: 90px;
+    color: rgb(255,255,255);
+    font-size: 35px;
+    font-family: 'Varela Round', sans-serif;
+}
+.main_container{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    position: relative;
+    left: 320px;
+    top: 125px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 28px 13px rgba(0,0,0,0.6) ;
+    /* margin: 5px; */
+}
+.sub_container{
+    width: 50%;
+    position: relative;
+    left: 7%;
+    top: 19%;
+}
+.side_container{
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 7%;
+}
+.content_1,.content_2{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+#btn{
+    width: 70%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #451ad3;
+    color: rgb(255,255,255);
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 130px;
+    border-radius: 5px;
+}
+.product{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+#in_amount{
+    /* width:70% ; */
+    position: relative;
+    top: 84px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+}
+.amount{
+    position: relative;
+    top: 75px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+#in_product{
+    position: relative;
+    top: 35px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+}
+hr#line_1{
+    width: 70%;
+    position: relative;
+    top: 28px;
+    right: 57px;
+}
+
+hr#line_2 {
+    width: 70%;
+    position: relative;
+    top: 77px;
+    right: 57px;
+}
